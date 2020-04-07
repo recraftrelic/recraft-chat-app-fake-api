@@ -1,24 +1,31 @@
 {
     "users": [
         {
-            "id": 1,
+            "id": 0,
             "fullName": "Ajay Singh",
             "username": "rocksinghajay",
             "email": "rocksinghajay@gmail.com",
             "password": "recraft"
         },
         {
-            "id": 2,
+            "id": 1,
             "fullName": "Manoj Singh Negi",
             "username": "justanothermanoj",
             "email": "justanothermanoj@gmail.com",
             "password": "recraft"
         },
         {
+            "id": 2,
+            "fullName": "Puran",
+            "username": "puranchand",
+            "email": "puranchand@gmail.com",
+            "password": "recraft"
+        },
+        {
             "id": 3,
-            "fullName": "Yogesh Kapoor",
-            "username": "yogeshkapoor",
-            "email": "yogeshkapoor@gmail.com",
+            "fullName": "Yogesh",
+            "username": "yogesh",
+            "email": "yogesh@gmail.com",
             "password": "recraft"
         }
     ]
