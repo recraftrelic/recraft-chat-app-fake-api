@@ -13,13 +13,19 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "@types/json-server": "^0.14.2",
+    "@types/jsonwebtoken": "^8.3.8",
     "@types/swagger-ui-express": "^4.1.2",
     "express": "^4.17.1",
+    "is_js": "^0.9.0",
+    "json-server": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
     "swagger-ui-express": "^4.1.4"
   },
   "scripts": {
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "json-server": "json-server --watch db.json --port 3004"
   }
 }
